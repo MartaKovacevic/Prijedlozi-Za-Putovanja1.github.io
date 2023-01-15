@@ -7,13 +7,20 @@ body {
     margin: 0;
   }
   
-  /* Style the header */
-  .header {
-    background-color: #FFDAB9;
-    padding: 30px;
-    text-align: center;
+header {
+  background-color: #FFDAB9;
+  font-family: Tahoma, sans-serif;
+  padding: 60px;
+  text-align: center;
+  font-size: 20px;
+
   }
 
+a:link {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(37, 35, 35);
+}
 
 ul.topnav {
   list-style-type: none;
@@ -38,6 +45,18 @@ ul.topnav li a:hover:not(.active) {background-color: #E9967A;;}
 ul.topnav li a.active {background-color: #90EE90;}
 
 ul.topnav li.right {float: right;}
+.tekst {
+  padding: 16px;
+  font-family: Tahoma, sans-serif;
+  text-align: center
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
 
 @media screen and (max-width: 600px) {
   ul.topnav li.right, 
@@ -47,8 +66,9 @@ ul.topnav li.right {float: right;}
 </head>
 <body>
 
-<div class="header">
-    <h1>London</h1>
+  <div class="header">
+    <h1>Prijedlozi za putovanja</h1>
+
 
 </div>   
 <ul class="topnav">
@@ -59,14 +79,22 @@ ul.topnav li.right {float: right;}
   <li><a href="rovinj.html">Rovinj</a></li>
 </ul>
 
-<div style="padding:0 16px;">
-  <h2></h2>
-  <p></p>
-  <p></p>
-
+<div class="tekst">
+  <h2>London</h2>
+  <p>London je glavni grad Engleske te je jedna od najposjećeniijih metropola s velikim brojem atrakcija za turiste. Tako od muzeja obavezno trebate posjetiti <a href="https://www.nhm.ac.uk/">Natural History Museum</a>. U njemu možete pronaći svega od evolucije biljaka i životinja do svemira. Kada se uđe u muzej mogu se primjetiti i učenici mnogih londonskih škola jer je primjenjen za djecu školskog uzrasta, ali ni odraslima ne će biti dosadno.</p>
+  <img src="Natural history museum.jpg" alt="National history museum" style="width:250px;height:200;">
+  <p>Još jedno mjesto koje je bi trebali pojetiti je <a href="https://www.rmg.co.uk/royal-observatory">Royal Observatory</a> na Greenwichu. Tamo se nalazi muzej, ali i linija nultog meridijana te možete slikati svoj prelazak s istočne na zapadnu polutku Zemlje i obrnuto. Također zvjezdarnica je na brdu tako da ima lijepi pogled na grad te je ispred livada na kojoj možete imati piknik.</p>
+  <img src="Greenwich.jpg" alt="Greenwich" style="width:350px;height:350;">
+  <p>Kada smo kod lijepih pogleda na grad onda obavezno morate otići na London Eye. S njega možete vidjeti Buckinghamsku palaču a i britanski parlament.</p>
+  <img src="London eye.jpg" alt="London Eye" style="width:250px;height:200;">
+  <p>Također kada ste u london morate posjtiti Tower Bridge i Tower of London te su oni međusobno jako blizu. Tower Bridge je jedan od najpoznatijih mostova na svijetu. Ponajviše je poznat zbog dizanja dijelova osta kako bi prošli brodovi te je to jedna od najvećih atrakcija u Londonu.Danas je otvoren za sav promet, a preko njega se može i pješice. U tornjevima se nalazi i Mostovski muzej u kojem možete razgledati kako su u počecima podizali most za potrebe prolaska brodova. U tom muzeju se možete prošetati kroz staklene prolaze iznad mosta.</p>
+  <p>Tower of London je sagrađen 1066. i sam dvorac je služio kao zatvor od 1100. do 1952. godine. Unutar dvorca održava se stalna izložba kraljevskih dragulja u kojoj se možete vidjeti veliku kolekciju dragulja koja pripada britanskoj kraljevskoj obitelji.</p>
+  <img src="London.jpg" alt="Tower bridge" style="width:300px;height:250;">
 </div>
 
 
 </body>
 </html>
+
+
 
